@@ -1,0 +1,9 @@
+{
+  "title": "Groups Endpoint",
+  "url": "https://support.cchifirm.ca/en/content/cch_ifirm/web_api/api_groups_endpoints.htm",
+  "endpoint_count": 1,
+  "endpoints": [
+    "/api/partner/1.0/groups"
+  ],
+  "content": "Groups Endpoint\nSkip To Main Content\nAccount\nSettings\nLogout\nplaceholder\nAccount\nSettings\nLogout\nFilter:\nAll Files\nSubmit Search\nYou are here:\nCCH iFirm\n2026.20\nGroups Endpoint\n/api/partner/1.0/groups (GET)\nEndpoint description\nReturns a list of groups and their group options.\nModel\nN/A\nProperties\nN/A\nExamples\nRequest URL\nhttps://mysite.cchifirm.ca/taxcan/api/partner/1.0/groups\nRequest body\nN/A\nResponse body\n{\n\"result\": {\n\"group1\": {\n\"nameEn\": \"Office\",\n\"nameFr\": \"Bureau\",\n\"options\": [\n{\n\"id\": -1,\n\"nameEn\": \"None\",\n\"nameFr\": \"Aucun\",\n\"isVisible\": true\n}\n]\n},\n\"group2\": {\n\"nameEn\": \"Department\",\n\"nameFr\": \"DÃ©partement\",\n\"options\": [\n{\n\"id\": -1,\n\"nameEn\": \"None\",\n\"nameFr\": \"Aucun\",\n\"isVisible\": true\n}\n]\n}\n},\n\"errors\": []\n}\nSupport\nKnowledge Base\nRelease Notes\nUseful Links\nConsult our Status page\nSend feedback\nCCH iFirm Taxprep T1 Help Centre\nCCH iFirm Taxprep T2 Help Centre\nCCH iFirm Taxprep T3 Help Centre\nCCH iFirm Taxprep Forms Help Centre\nAbout us\nAbout Wolters Kluwer\nCareer Opportunities\nJoin us\nï\nï\nï¡\nï§\nPrivacy\nTerms & Conditions\nÂ©\n2026\nWolters Kluwer\n.\nwolterskluwer.com"
+}

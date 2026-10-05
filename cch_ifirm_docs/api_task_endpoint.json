@@ -1,0 +1,10 @@
+{
+  "title": "Tasks Endpoint",
+  "url": "https://support.cchifirm.ca/en/content/cch_ifirm/web_api/api_task_endpoint.htm",
+  "endpoint_count": 2,
+  "endpoints": [
+    "/api/partner/1.0/tasks/21ef4216307544de9cc5700bbc1cbe68",
+    "/api/partner/1.0/tasks/{taskId"
+  ],
+  "content": "Tasks Endpoint\nSkip To Main Content\nAccount\nSettings\nLogout\nplaceholder\nAccount\nSettings\nLogout\nFilter:\nAll Files\nSubmit Search\nYou are here:\nCCH iFirm\n2026.20\nTasks Endpoint\n/api/partner/1.0/tasks/{taskId} (GET)\nEndpoint description\nReturns the status of a specific task created by initiating an asynchronous action such as a roll forward. The task ID must be provided in the URL.\nWhen the status code returned is\n202 Accepted\n, it means that the task is still ongoing and a\nRetry-After\nheader is provided in the response in order to keep polling the task until completion.\nWhen the status code returned is\n301 Moved\npermanently\n, an ID is provided in the location header of the response. This ID can then be used to get the result of an asynchronous action such as a roll forward.\nNote:\nThe user agent may use the value in the\nLocation\nfield for automatic redirection when the HTTP status code returned is\n301 Moved permanently\n, which results in receiving the action result. For example, if you roll forward a document and get the task provided by the endpoint, the result of that roll forward might be provided by the\nRoll forward endpoint\n.\nModel\nN/A\nProperties\nN/A\nExamples\nRequest URL\nhttps://mysite.cchifirm.ca/taxcan/api/partner/1.0/tasks/21ef4216307544de9cc5700bbc1cbe68\nRequest body\nN/A\nResponse body\nN/A\nSupport\nKnowledge Base\nRelease Notes\nUseful Links\nConsult our Status page\nSend feedback\nCCH iFirm Taxprep T1 Help Centre\nCCH iFirm Taxprep T2 Help Centre\nCCH iFirm Taxprep T3 Help Centre\nCCH iFirm Taxprep Forms Help Centre\nAbout us\nAbout Wolters Kluwer\nCareer Opportunities\nJoin us\nï\nï\nï¡\nï§\nPrivacy\nTerms & Conditions\nÂ©\n2026\nWolters Kluwer\n.\nwolterskluwer.com"
+}
